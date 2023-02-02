@@ -62,7 +62,7 @@ function renderOneCountry(countries) {
                 </li>`;
         })
         .join('');
-      countryList.innerHTML = markup;
+      countryInfo.innerHTML = markup;
 }
 
 function cleanHtml() {

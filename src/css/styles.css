@@ -18,12 +18,20 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
-.country-list{
+.country-list,
+.country-info{
   list-style: none;
   
 }
 .country-list li{
   display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.country-info li{
+  margin-left: 15px;
   align-items: center;
   font-size: 18px;
   font-weight: 500;
